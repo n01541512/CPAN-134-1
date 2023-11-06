@@ -1,0 +1,44 @@
+a:link {
+    color: brown;
+}
+
+a:hover {
+    color: black;
+}
+    
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: bisque;
+}
+
+section{
+    background-color: bisque;
+    border: 10px solid darkkhaki;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 5px 5px 5px 5px silver;
+}
+
+.tableone {
+    border: 10px solid darkkhaki;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px 5px silver;
+}
+
+.tabletwo {
+    background-color: navajowhite;
+    border: 7px solid darkkhaki;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px 5px silver;
+}
+
+.tablethree {
+    background-color: navajowhite;
+    border: 7px solid darkkhaki;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 4px 4px 4px 4px silver;
+}
+
+.purchase {
+    font-family: 'Courier New', Courier, monospace;
+    background: antiquewhite;
+}

@@ -1,0 +1,19 @@
+a:link {
+    color: brown;
+}
+
+a:hover {
+    color: black;
+}
+    
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: bisque;
+}
+
+.tableone {
+    background-color: navajowhite;
+    border: 10px solid darkkhaki;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px 5px silver;
+}
