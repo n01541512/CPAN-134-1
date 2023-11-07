@@ -1,0 +1,103 @@
+ccdetails
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {
+            font-family: 'Courier New', Courier, monospace;
+            }
+            legend {
+            font-family: 'Courier New', Courier, monospace;
+            }
+            a:link {
+            color: brown;
+            }
+            a:hover {
+            color: black;
+            }
+            body {
+            font-family: 'Courier New', Courier, monospace;
+            background: bisque;
+            }
+            .tableone {
+            border: 10px solid darkkhaki;
+            border-radius: 5px 5px 5px 5px;
+            box-shadow: 5px 5px 5px 5px silver;
+            }
+            .box {
+            font-family: 'Courier New', Courier, monospace;
+            background: antiquewhite;
+            }
+        </style>
+        <title>Rainforest</title>
+    </head>
+<body>
+
+<h1><center><a href="./main.html">Rainforest Marketplace</a></center></h1>
+<br>
+
+<center><a href="./main.html">Home</a></center> <br>
+
+<center><a href="./personaldetails.html">Return</a></center> <br>
+
+<form>
+
+<fieldset>
+<legend>Credit Card Details</legend>
+
+<label for="cct">Card Type: </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<select name ="ccn" id="ccn" required>
+<option value="cred">Credit</option>
+<option value="deb">Debit</option>
+<option value="pp">PayPal</option>
+</select> <br><br>
+
+<label for="ccn">Card Number: </label> &nbsp;&nbsp;
+<input type="number" id="ccn" name="ccn" minlength="16" maxlength="16" placeholder="XXXX-XXXX-XXXX-XXXX" required> <br><br>
+
+<label for="expdate">Expiration Date: </label>
+<select name="month" id="month" required>
+<option value="jan">January</option>
+<option value="feb">February</option>
+<option value="mar">March</option>
+<option value="apr">April</option>
+<option value="may">May</option>
+<option value="Jun">June</option>
+<option value="Jul">July</option>
+<option value="Aug">August</option>
+<option value="Sep">September</option>
+<option value="Oct">October</option>
+<option value="Nov">November</option>
+<option value="Dec">December</option>
+</select>
+<select>
+<option value="2023">2023</option>
+<option value="2024">2024</option>
+<option value="2025">2025</option>
+<option value="2026">2026</option>
+<option value="2027">2027</option>
+</select> <br><br>
+
+<label for="ssn">SSN: </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="number" id="ssn" name="ssn" placeholder="XXX" minlength="3" maxlength="3" required> <br><br>
+
+</form>
+
+</fieldset><br><br><br>
+
+<center>
+    <style>table, th, td {border:1px solid black}</style>
+    <table>
+    <tr>
+    <td><a href="./emailnotifications.html"><input type="submit" id="go" name="go" value="Continue"></a>
+    </tr>
+    </table>
+</center>
+
+<center>
+<p>Adel</p>
+</center>
+
+</body>
+</html>
